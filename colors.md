@@ -13,3 +13,5 @@
 ### Highlight: #1a4c6d
 ## Background
 ### Normal: #2c3e50
+## Info + Circle
+### Normal: #1f8f81
