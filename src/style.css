@@ -5,15 +5,13 @@
         padding: 20px;
         font-size: 18px;
     }
+    #GameContent {
+        display: none;
+    }
 }
 
 @media (min-width: 600px) {
     #error {
-        display: none;
-    }
-}
-@media (max-width: 599px) { /*Viewport error*/
-    #gameContent {
         display: none;
     }
 }
