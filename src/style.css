@@ -113,9 +113,12 @@ body{
     display: none;
 }
 
-#information:hover + #hover{
+#menuButtons:hover + #hover{
+    position: absolute;
     display: block;
-    text-align: center;
-    font-size: xx-large;
-    color: #e74c3c;
+    right: 19%;
+    word-wrap: normal;
+    color: white;
+    width: 22%;
+    background-color: #e74c3c;
 }
