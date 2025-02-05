@@ -40,38 +40,42 @@ body{
 
 #UL{
     background-color: #e74c3c;
-    width: 12rem;
-    height: 12rem;
+    width: 20%;
+    height: 0;
     border-radius: 20%;
     left: 31%;
     padding: 10px;
+    padding-bottom: 20%;
 }
 
 #UR{
     background-color: #f1c40f;
-    width: 12rem;
-    height: 12rem;
+    width: 20%;
+    height: 0;
     border-radius: 20%;
     right: 31%;
     padding: 10px;
+    padding-bottom: 20%;
 }
 
 #LL{
     background-color: #2ecc71;
-    width: 12rem;
-    height: 12rem;
+    width: 20%;
+    height: 0;
     border-radius: 20%;
     left: 31%;
     padding: 10px;
+    padding-bottom: 20%;
 }
 
 #LR{
     background-color: #3498db;
-    width: 12rem;
-    height: 12rem;
+    width: 20%;
+    height: 0;
     border-radius: 20%;
     right: 31%;
     padding: 10px;
+    padding-bottom: 20%;
 }
 
 
@@ -97,11 +101,21 @@ body{
     background-color: #2c3e50;
 }
 #information{
-
     width: 1rem;
 }
 
 #highscore{
     color: white;
     text-align: center;
+}
+
+#hover{
+    display: none;
+}
+
+#information:hover + #hover{
+    display: block;
+    text-align: center;
+    font-size: xx-large;
+    color: #e74c3c;
 }
