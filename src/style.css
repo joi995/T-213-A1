@@ -122,3 +122,17 @@ body{
     width: 22%;
     background-color: #e74c3c;
 }
+
+#counter{
+    position: absolute;
+    border-radius: 360px;
+    border-color: #2ecc71;
+    color: white;
+    background-color: red;
+    width: 7rem;
+    height: 7rem;
+    align-content: center;
+    text-align: center;
+    right: 46%;
+    top: 38%;
+}
