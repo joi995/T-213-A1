@@ -38,38 +38,56 @@ body{
     width: 100%;
 }
 
+#upperGameButtons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #UL{
     background-color: #e74c3c;
     width: 20%;
     height: 0;
-    border-radius: 15%;
-
-
+    border-radius: 10%;
+    border: none;
     padding-bottom: 20%;
+    margin: 10px;
 }
 
 #UR{
     background-color: #f1c40f;
     width: 20%;
     height: 0;
-    border-radius: 15%;
+    border-radius: 10%;
+    border: none;
     padding-bottom: 20%;
+    margin: 10px;
+}
+
+#lowerGameButtons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #LL{
     background-color: #2ecc71;
     width: 20%;
     height: 0;
-    border-radius: 15%;
+    border-radius: 10%;
+    border: none;
     padding-bottom: 20%;
+    margin: 10px;
 }
 
 #LR{
     background-color: #3498db;
     width: 20%;
     height: 0;
-    border-radius: 15%;
+    border-radius: 10%;
+    border: none;
     padding-bottom: 20%;
+    margin: 10px;
 }
 
 #UL:active{
@@ -152,12 +170,11 @@ body{
 }
 #infoText{
     visibility: hidden;
-    position: absolute;
     display: block;
-    right: 22%;
-    word-wrap: normal;
+    position: absolute;
+    text-align:justify;
     color: #e3e2d7;
-    width: 21.5%;
+    width: 13rem;
     background-color: #34495e;
 }
 #start:active{
@@ -168,12 +185,14 @@ body{
     width: 5rem;
     background-color: #34495e;
     padding: 10px;
+    border: none;
     color: #e3e2d7;
 }
 
 #replay{
     width: 6rem;
     padding: 10px;
+    border: none;
     color: #e3e2d7;
 }
 
