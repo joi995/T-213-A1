@@ -15,3 +15,4 @@
 ### Normal: #2c3e50
 ## Info + Circle
 ### Normal: #1f8f81
+## StartActive: #1abc9d
