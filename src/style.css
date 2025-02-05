@@ -93,8 +93,25 @@ body{
 }
 .center {
     text-align: center;
+    width: 100%;
   }
 
+  #counter{
+    border-radius: 360px;
+    background-color: #34495e;
+    border-width: 2px;
+    width: 12%;
+    height: 0;
+    padding-bottom: 6%;
+    padding-top: 6%;
+    align-content: center;
+    margin-inline: auto;
+    margin-top: -27.5%;
+    margin-bottom: 17%;
+    z-index: 5;
+    position: relative;
+    border-color: green ;
+}
 
 #menuButtons{
     text-align: center;
@@ -123,16 +140,4 @@ body{
     background-color: #e74c3c;
 }
 
-#counter{
-    position: absolute;
-    border-radius: 360px;
-    border-color: #2ecc71;
-    color: white;
-    background-color: red;
-    width: 7rem;
-    height: 7rem;
-    align-content: center;
-    text-align: center;
-    right: 46%;
-    top: 38%;
-}
+
