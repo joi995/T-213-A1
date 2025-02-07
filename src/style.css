@@ -184,6 +184,7 @@ body{
     
 }
 #infoText{
+    margin-top: 20px;
     visibility: hidden;
     display: block;
     position: absolute;
@@ -191,6 +192,9 @@ body{
     color: #e3e2d7;
     width: 13rem;
     background-color: #34495e;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 5px;
 }
 #start:active{
     background-color: #1abc9d;
@@ -210,8 +214,9 @@ body{
     width: 6rem;
     padding: 10px;
     border-radius: 5px;
+    background-color: #5e6d75;
     border: none;
-    color: #e3e2d7;
+    color: #d1d6d8;
     font-size: 1rem;
 }
 
